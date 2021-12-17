@@ -12,14 +12,17 @@ print("Hello World")
 
 import pandas as pd
 
-#Employee dataset imported from Kaggle - https://www.kaggle.com/tejashvi14/employee-future-prediction
+data = pd.read_csv("Employee.csv")
 
-data=pd.read_csv("Employee.csv.xls")
-
+print(data)
 print(data.shape)
 
 k = data.head()
-
 print(k)
-bcdjsafueb odijwio uweiowj
+c = data.columns
+print(c)
+
+
+
+
 
